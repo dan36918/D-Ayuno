@@ -4,15 +4,14 @@
 
     <application
         android:allowBackup="true"
-        android:label="D·AYUNO"
+        android:label="D-AYUNO"
         android:theme="@android:style/Theme.Material.NoActionBar"
         android:usesCleartextTraffic="false"
         android:icon="@drawable/ic_launcher">
 
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:configChanges="orientation|screenSize|keyboardHidden">
+            android:exported="true">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,5 +19,8 @@
             </intent-filter>
 
         </activity>
+
     </application>
+
 </manifest>
+
